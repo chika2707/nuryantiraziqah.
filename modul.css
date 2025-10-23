@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Pengembangan E-Learning</title>
+  <style>
+    /* ====== STYLE UMUM ====== */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 8px;
+    }
+
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 12px 0;
+      border-bottom: 1px solid #e0e0e0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      margin: 8px 15px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      transition: color 0.3s, border-bottom 0.3s;
+      padding-bottom: 4px;
+    }
+
+    nav a:hover {
+      color: #0056b3;
+      border-bottom: 2px solid #0056b3;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 25px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+    }
+
+    h2 {
+      color: #0056b3;
+      border-left: 5px solid #007bff;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 25px;
+    }
+
+    iframe {
+      display: block;
+      margin: 15px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+      border-radius: 8px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* ====== QUIZ & LINK ====== */
+    .quiz a {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 10px 18px;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    .quiz a:hover {
+      background-color: #218838;
+    }
+
+    .external-link {
+      display: block;
+      margin: 8px 0;
+      padding: 10px;
+      background-color: #e9ecef;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #0056b3;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .external-link:hover {
+      background-color: #d6dce1;
+      transform: translateX(3px);
+    }
+
+    footer {
+      background-color: #0056b3;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 768px) {
+      nav a {
+        margin: 6px;
+        font-size: 0.9em;
+      }
+      section {
+        margin: 15px;
+        padding: 18px;
+      }
+      iframe {
+        width: 100%;
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Website Pengembangan E-Learning</h1>
+    <p>Platform untuk pengembangan materi pembelajaran digital.</p>
+  </header>
+
+  <nav>
+    <a href="#materi">Penentuan Materi</a>
+    <a href="#tujuan">Tujuan</a>
+    <a href="#cpmk">CPMK</a>
+    <a href="#konten">Konten</a>
+    <a href="#evaluasi">Evaluasi</a>
+    <a href="#sumber">Sumber</a>
+  </nav>
+
+  <section id="materi">
+    <h2>1. Penentuan Materi</h2>
+    <p><strong>Judul:</strong> Pengembangan E-Learning untuk Pendidikan Modern</p>
+    <p>Materi ini membahas dasar-dasar pengembangan platform e-learning, termasuk struktur, konten, dan evaluasi.</p>
+  </section>
+
+  <section id="tujuan">
+    <h2>2. Tujuan Pembelajaran</h2>
+    <ul>
+      <li>Mahasiswa dapat memahami konsep dasar e-learning.</li>
+      <li>Mahasiswa mampu merancang materi pembelajaran digital.</li>
+      <li>Mahasiswa dapat mengimplementasikan evaluasi dalam bentuk kuis.</li>
+    </ul>
+  </section>
+
+  <section id="cpmk">
+    <h2>3. CPMK dan Indikator</h2>
+    <p><strong>CPMK:</strong></p>
+    <ul>
+      <li>Memahami prinsip-prinsip pengembangan e-learning.</li>
+      <li>Mampu merancang konten digital interaktif.</li>
+      <li>Menguasai teknik evaluasi pembelajaran.</li>
+    </ul>
+
+    <p><strong>Indikator:</strong></p>
+    <ul>
+      <li>Dapat menjelaskan komponen e-learning (skor ≥ 70).</li>
+      <li>Mampu membuat prototipe konten digital (skor ≥ 75).</li>
+      <li>Dapat merancang kuis evaluasi (skor ≥ 80).</li>
+    </ul>
+  </section>
+
+  <section id="konten">
+    <h2>4. Konten Digital</h2>
+    <p>Konten digital meliputi video, gambar, dan interaksi.</p>
+
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/9tCOe_pqVzM"
+      title="Video Pembelajaran Bab 1"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <p>Gambar contoh:</p>
+    <img src="https://via.placeholder.com/300" alt="Contoh Konten Digital">
+
+    <p>Interaksi:</p>
+    <button onclick="alert('Ini adalah contoh interaksi digital!')">Klik Saya</button>
+  </section>
+
+  <section id="evaluasi">
+    <h2>5. Evaluasi</h2>
+    <p>Bank Soal Quiz:</p>
+    <div class="quiz">
+      <a href="https://wordwall.net/resource/100283557" target="_blank">Buka Kuis di Wordwall</a>
+    </div>
+  </section>
+
+  <section id="sumber">
+    <h2>6. Sumber Belajar Tambahan</h2>
+    <p>Perluas wawasan Anda dengan sumber berikut:</p>
+    <a href="https://staticsiakadu.unesa.ac.id/Modul%20E_Learning%20revisi%201.pdf" target="_blank" class="external-link">
+      📘 Modul E-Learning (PDF)
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2025 Website Pengembangan E-Learning | Dibuat untuk tujuan pembelajaran
+  </footer>
+</body>
+</html>
